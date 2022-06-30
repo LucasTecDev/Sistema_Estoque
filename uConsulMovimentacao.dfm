@@ -2,8 +2,8 @@ object FrmConsulMovimentacao: TFrmConsulMovimentacao
   Left = 0
   Top = 0
   Caption = 'Consulta de Movimenta'#231#245'es'
-  ClientHeight = 201
-  ClientWidth = 447
+  ClientHeight = 377
+  ClientWidth = 695
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -11,6 +11,7 @@ object FrmConsulMovimentacao: TFrmConsulMovimentacao
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  Position = poScreenCenter
   PixelsPerInch = 96
   TextHeight = 13
 end
