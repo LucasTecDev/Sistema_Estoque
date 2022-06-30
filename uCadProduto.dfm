@@ -29,6 +29,34 @@ object FrmCadProduto: TFrmCadProduto
     Font.Style = [fsBold]
     ParentFont = False
   end
+  object Label2: TLabel
+    Left = 40
+    Top = 93
+    Width = 83
+    Height = 13
+    Caption = 'Nome do Produto'
+  end
+  object Label3: TLabel
+    Left = 40
+    Top = 141
+    Width = 51
+    Height = 13
+    Caption = 'Fabricante'
+  end
+  object Label4: TLabel
+    Left = 40
+    Top = 187
+    Width = 115
+    Height = 13
+    Caption = 'Quantidade em Estoque'
+  end
+  object Label5: TLabel
+    Left = 224
+    Top = 141
+    Width = 40
+    Height = 13
+    Caption = 'Validade'
+  end
   object DBNavigator1: TDBNavigator
     Left = 312
     Top = 8
