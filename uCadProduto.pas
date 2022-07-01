@@ -5,7 +5,7 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Mask, Vcl.DBCtrls,
-  Vcl.ExtCtrls;
+  Vcl.ExtCtrls, Data.DB, Vcl.Grids, Vcl.DBGrids;
 
 type
   TFrmCadProduto = class(TForm)
@@ -19,6 +19,7 @@ type
     Label3: TLabel;
     Label4: TLabel;
     Label5: TLabel;
+    DBGrid1: TDBGrid;
   private
     { Private declarations }
   public
@@ -31,5 +32,7 @@ var
 implementation
 
 {$R *.dfm}
+
+uses uDM;
 
 end.
